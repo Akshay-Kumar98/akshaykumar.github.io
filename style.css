@@ -227,6 +227,9 @@ html {
   top: 0;
   left: 0;
   overflow-y: scroll;
+  ::-webkit-scrollbar {
+    display: none;
+}
   border-right: 1px solid #f76a60;
   
 }
@@ -323,19 +326,6 @@ html {
   width: 100%;
   
   
-}
-
-.image::before {
-  content: "\002795";
-  background-color: #00c8da;
-  width: 40px;
-  height: 40px;
-  display: grid;
-  place-items: center;
-  color: white;
-  position: absolute;
-  left: 46px;
-  bottom: 15px;
 }
 
 .about {
