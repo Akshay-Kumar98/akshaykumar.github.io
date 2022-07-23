@@ -227,12 +227,18 @@ html {
   top: 0;
   left: 0;
   overflow-y: scroll;
-  ::-webkit-scrollbar {
-    display: none;
-}
   border-right: 1px solid #f76a60;
-  
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
 }
+
+
+.sidebox::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+  
+
 
 .type {
   width: 100%;
