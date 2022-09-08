@@ -41,7 +41,7 @@ $(document).ready(function () {
  
 var typed = new Typed(".auto-type",{
 
-strings:["Front-End Developer", "Web Designer", "Wordpress Designer", "Shopify Developer"],
+strings:["Front-End Developer", "Web Designer", "Wordpress Developer", "Shopify Developer"],
 backspace: 150,
 typeSpeed: 80,
 loop:true
