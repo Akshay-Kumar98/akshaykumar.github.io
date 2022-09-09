@@ -1,25 +1,3 @@
-// $(document).ready(function(){
-
-// $("a[href^='#']").click(function(e){
-//     e.preventDefault();
-
-
-// var position = $($(this).attr("href")).offset().top;
-
-// var mypos = position - 100;
-// $("body, html").animate({
-//     scrollTop:mypos
-
-// },2000);
-
-
-
-// });
-
-// });
-
-
-
 $(document).ready(function () {
 
     $("#anchor").hide(0);
@@ -58,7 +36,9 @@ $(document).ready(function(){
   })
 })
 
-
+function screentop(){
+  scrollTo(0,0)
+}
 
 
 
