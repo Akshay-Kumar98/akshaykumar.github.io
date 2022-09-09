@@ -1006,6 +1006,7 @@ footer a {
   display: grid;
   place-items: center;
   z-index: 99999;
+  cursor: pointer;
 }
 
 footer a:hover {
